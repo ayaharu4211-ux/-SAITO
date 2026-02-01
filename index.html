@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="在庫管理システム - 個人事業主から大企業まで。シンプルで強力な在庫管理ツール。買い切り型で月額料金なし。">
+    <meta name="keywords" content="在庫管理,在庫管理システム,在庫管理ツール,在庫管理アプリ,EC在庫管理,中小企業,個人事業主,買い切り">
+    <title>在庫管理システム - シンプルで強力な在庫管理ツール</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- ヘッダーナビゲーション -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav-logo">
+                <i class="fas fa-boxes"></i>
+                <span>在庫管理システム</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#features" class="nav-link">機能</a></li>
+                    <li><a href="#pricing" class="nav-link">料金プラン</a></li>
+                    <li><a href="#use-cases" class="nav-link">活用事例</a></li>
+                    <li><a href="#testimonials" class="nav-link">お客様の声</a></li>
+                    <li><a href="#faq" class="nav-link">FAQ</a></li>
+                </ul>
+                <a href="#pricing" class="btn btn-primary">今すぐ始める</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ヒーローセクション -->
+    <section class="hero" id="hero">
+        <div class="hero-bg"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-star"></i>
+                    <span>買い切り型・月額料金なし</span>
+                </div>
+                <h1 class="hero-title">
+                    在庫管理を、<br>
+                    もっとシンプルに。<br>
+                    もっとスマートに。
+                </h1>
+                <p class="hero-description">
+                    個人事業主から大企業まで。あなたのビジネスに最適な在庫管理ツール。<br>
+                    Excelから卒業して、効率的な在庫管理を始めましょう。
+                </p>
+                <div class="hero-buttons">
+                    <a href="#pricing" class="btn btn-hero-primary">
+                        <span>プランを見る</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#features" class="btn btn-hero-secondary">
+                        <i class="fas fa-play-circle"></i>
+                        <span>機能を見る</span>
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">¥980〜</div>
+                        <div class="stat-label">買い切り価格</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">0円</div>
+                        <div class="stat-label">月額料金</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">3つ</div>
+                        <div class="stat-label">選べるプラン</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-card hero-card-1">
+                    <i class="fas fa-chart-line"></i>
+                    <div>
+                        <div class="card-title">リアルタイム分析</div>
+                        <div class="card-subtitle">在庫状況を即座に把握</div>
+                    </div>
+                </div>
+                <div class="hero-card hero-card-2">
+                    <i class="fas fa-bell"></i>
+                    <div>
+                        <div class="card-title">在庫アラート</div>
+                        <div class="card-subtitle">適切なタイミングで通知</div>
+                    </div>
+                </div>
+                <div class="hero-card hero-card-3">
+                    <i class="fas fa-mobile-alt"></i>
+                    <div>
+                        <div class="card-title">マルチデバイス</div>
+                        <div class="card-subtitle">PC・スマホ完全対応</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 機能セクション -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">充実の機能</h2>
+                <p class="section-description">
+                    事業規模に合わせて選べる、3つのプラン。<br>
+                    必要な機能だけを、リーズナブルな価格で。
+                </p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-box"></i>
+                    </div>
+                    <h3 class="feature-title">商品管理</h3>
+                    <p class="feature-description">
+                        商品名、SKU、単価、在庫数を一元管理。検索機能で素早く商品を見つけられます。
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-tags"></i>
+                    </div>
+                    <h3 class="feature-title">カテゴリ管理</h3>
+                    <p class="feature-description">
+                        商品をカテゴリ別に分類。色分けでビジュアル管理が可能です。
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-file-csv"></i>
+                    </div>
+                    <h3 class="feature-title">CSV入出力</h3>
+                    <p class="feature-description">
+                        Excelからの一括登録、データエクスポート。バックアップとしても活用できます。
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bell"></i>
+                    </div>
+                    <h3 class="feature-title">在庫アラート</h3>
+                    <p class="feature-description">
+                        在庫が閾値以下になると自動で警告。適切な発注タイミングを逃しません。
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-warehouse"></i>
+                    </div>
+                    <h3 class="feature-title">複数拠点管理</h3>
+                    <p class="feature-description">
+                        複数の倉庫・店舗を一元管理。拠点間の在庫移動もスムーズに。
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3 class="feature-title">分析・レポート</h3>
+                    <p class="feature-description">
+                        月別集計、商品別分析、グラフ表示。データに基づいた意思決定を支援します。
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-history"></i>
+                    </div>
+                    <h3 class="feature-title">完全な履歴管理</h3>
+                    <p class="feature-description">
+                        入出庫、調整、移動の全履歴を記録。いつ、誰が、何をしたかを完全追跡。
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 class="feature-title">マルチデバイス対応</h3>
+                    <p class="feature-description">
+                        PC・スマホ・タブレット完全対応。外出先からも在庫確認が可能です。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 料金プランセクション -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">料金プラン</h2>
+                <p class="section-description">
+                    買い切り型で月額料金なし。一度購入すれば永久に使えます。<br>
+                    あなたのビジネスに最適なプランを選びましょう。
+                </p>
+            </div>
+            <div class="pricing-grid">
+                <!-- ライトプラン -->
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <div class="pricing-icon" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3 class="pricing-name">ライトプラン</h3>
+                        <p class="pricing-subtitle">個人事業主・小規模EC向け</p>
+                    </div>
+                    <div class="pricing-price">
+                        <span class="price-currency">¥</span>
+                        <span class="price-amount">980</span>
+                        <span class="price-period">買い切り</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> 商品登録：最大100件</li>
+                        <li><i class="fas fa-check"></i> 基本的な在庫管理</li>
+                        <li><i class="fas fa-check"></i> CSVエクスポート</li>
+                        <li><i class="fas fa-check"></i> 在庫履歴</li>
+                        <li><i class="fas fa-check"></i> PC・スマホ対応</li>
+                        <li class="feature-disabled"><i class="fas fa-times"></i> カテゴリ管理</li>
+                        <li class="feature-disabled"><i class="fas fa-times"></i> 在庫アラート</li>
+                        <li class="feature-disabled"><i class="fas fa-times"></i> CSV一括登録</li>
+                    </ul>
+                    <a href="https://note.com/webapp0104/n/n8d0967ab2560" target="_blank" class="btn btn-pricing">
+                        購入はこちら
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <div class="pricing-note">
+                        <i class="fas fa-info-circle"></i>
+                        まずは小規模から始めたい方に
+                    </div>
+                </div>
+
+                <!-- スタンダードプラン -->
+                <div class="pricing-card pricing-card-featured">
+                    <div class="pricing-badge">
+                        <i class="fas fa-star"></i>
+                        最も人気
+                    </div>
+                    <div class="pricing-header">
+                        <div class="pricing-icon" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3 class="pricing-name">スタンダードプラン</h3>
+                        <p class="pricing-subtitle">中小企業・成長中のビジネス向け</p>
+                    </div>
+                    <div class="pricing-price">
+                        <span class="price-currency">¥</span>
+                        <span class="price-amount">2,980</span>
+                        <span class="price-period">買い切り</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> 商品登録：最大1,000件</li>
+                        <li><i class="fas fa-check"></i> <strong>カテゴリ管理</strong></li>
+                        <li><i class="fas fa-check"></i> <strong>CSV一括登録</strong></li>
+                        <li><i class="fas fa-check"></i> <strong>在庫アラート機能</strong></li>
+                        <li><i class="fas fa-check"></i> ダッシュボード</li>
+                        <li><i class="fas fa-check"></i> 詳細な検索・フィルター</li>
+                        <li><i class="fas fa-check"></i> 完全な在庫履歴</li>
+                        <li><i class="fas fa-check"></i> マルチデバイス対応</li>
+                    </ul>
+                    <a href="https://note.com/webapp0104/n/na1f593e0431f" target="_blank" class="btn btn-pricing btn-pricing-featured">
+                        購入はこちら
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <div class="pricing-note">
+                        <i class="fas fa-info-circle"></i>
+                        最もコスパが高いプラン
+                    </div>
+                </div>
+
+                <!-- プロプラン -->
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <div class="pricing-icon" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                            <i class="fas fa-crown"></i>
+                        </div>
+                        <h3 class="pricing-name">プロプラン</h3>
+                        <p class="pricing-subtitle">大規模・複数拠点向け</p>
+                    </div>
+                    <div class="pricing-price">
+                        <span class="price-currency">¥</span>
+                        <span class="price-amount">4,980</span>
+                        <span class="price-period">買い切り</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> 商品登録：<strong>無制限</strong></li>
+                        <li><i class="fas fa-check"></i> <strong>複数拠点管理</strong></li>
+                        <li><i class="fas fa-check"></i> <strong>在庫移動機能</strong></li>
+                        <li><i class="fas fa-check"></i> <strong>月別・商品別集計</strong></li>
+                        <li><i class="fas fa-check"></i> <strong>グラフ分析</strong></li>
+                        <li><i class="fas fa-check"></i> 完全な履歴ログ</li>
+                        <li><i class="fas fa-check"></i> スタンダードの全機能</li>
+                        <li><i class="fas fa-check"></i> 優先サポート</li>
+                    </ul>
+                    <a href="https://note.com/webapp0104/n/n7d45adfd12f6" target="_blank" class="btn btn-pricing">
+                        購入はこちら
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <div class="pricing-note">
+                        <i class="fas fa-info-circle"></i>
+                        本格的な在庫管理システム
+                    </div>
+                </div>
+            </div>
+
+            <!-- 料金比較表 -->
+            <div class="pricing-comparison">
+                <h3 class="comparison-title">詳細機能比較</h3>
+                <div class="comparison-table-wrapper">
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th>機能</th>
+                                <th>ライト</th>
+                                <th class="featured-column">スタンダード</th>
+                                <th>プロ</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>商品登録数</td>
+                                <td>100件</td>
+                                <td class="featured-column">1,000件</td>
+                                <td>無制限</td>
+                            </tr>
+                            <tr>
+                                <td>カテゴリ管理</td>
+                                <td><i class="fas fa-times text-muted"></i></td>
+                                <td class="featured-column"><i class="fas fa-check text-success"></i></td>
+                                <td><i class="fas fa-check text-success"></i></td>
+                            </tr>
+                            <tr>
+                                <td>CSV一括登録</td>
+                                <td><i class="fas fa-times text-muted"></i></td>
+                                <td class="featured-column"><i class="fas fa-check text-success"></i></td>
+                                <td><i class="fas fa-check text-success"></i></td>
+                            </tr>
+                            <tr>
+                                <td>在庫アラート</td>
+                                <td><i class="fas fa-times text-muted"></i></td>
+                                <td class="featured-column"><i class="fas fa-check text-success"></i></td>
+                                <td><i class="fas fa-check text-success"></i></td>
+                            </tr>
+                            <tr>
+                                <td>複数拠点管理</td>
+                                <td><i class="fas fa-times text-muted"></i></td>
+                                <td class="featured-column"><i class="fas fa-times text-muted"></i></td>
+                                <td><i class="fas fa-check text-success"></i></td>
+                            </tr>
+                            <tr>
+                                <td>在庫移動機能</td>
+                                <td><i class="fas fa-times text-muted"></i></td>
+                                <td class="featured-column"><i class="fas fa-times text-muted"></i></td>
+                                <td><i class="fas fa-check text-success"></i></td>
+                            </tr>
+                            <tr>
+                                <td>グラフ分析</td>
+                                <td><i class="fas fa-times text-muted"></i></td>
+                                <td class="featured-column"><i class="fas fa-times text-muted"></i></td>
+                                <td><i class="fas fa-check text-success"></i></td>
+                            </tr>
+                            <tr>
+                                <td>月別・商品別集計</td>
+                                <td><i class="fas fa-times text-muted"></i></td>
+                                <td class="featured-column"><i class="fas fa-times text-muted"></i></td>
+                                <td><i class="fas fa-check text-success"></i></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 活用事例セクション -->
+    <section class="use-cases" id="use-cases">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">活用事例</h2>
+                <p class="section-description">
+                    様々な業種・規模のビジネスで活用されています
+                </p>
+            </div>
+            <div class="use-cases-grid">
+                <div class="use-case-card">
+                    <div class="use-case-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3 class="use-case-title">ECショップ運営</h3>
+                    <p class="use-case-description">
+                        オンラインショップの在庫を一元管理。複数モールの在庫連携もスムーズに。在庫切れを防ぎ、機会損失を削減。
+                    </p>
+                    <div class="use-case-tag">ライト・スタンダード</div>
+                </div>
+                <div class="use-case-card">
+                    <div class="use-case-icon">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <h3 class="use-case-title">小売店舗</h3>
+                    <p class="use-case-description">
+                        実店舗の商品在庫を管理。カテゴリ別に整理し、売れ筋商品を把握。適切なタイミングで発注が可能に。
+                    </p>
+                    <div class="use-case-tag">スタンダード</div>
+                </div>
+                <div class="use-case-card">
+                    <div class="use-case-icon">
+                        <i class="fas fa-warehouse"></i>
+                    </div>
+                    <h3 class="use-case-title">卸売・物流業</h3>
+                    <p class="use-case-description">
+                        複数倉庫の在庫を統合管理。倉庫間の移動もシステムで記録。月別の入出庫データで需要予測が可能。
+                    </p>
+                    <div class="use-case-tag">プロ</div>
+                </div>
+                <div class="use-case-card">
+                    <div class="use-case-icon">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <h3 class="use-case-title">製造業</h3>
+                    <p class="use-case-description">
+                        部品・原材料の在庫管理。複数工場の在庫を一元化。生産計画に基づいた適正在庫の維持が実現。
+                    </p>
+                    <div class="use-case-tag">プロ</div>
+                </div>
+                <div class="use-case-card">
+                    <div class="use-case-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3 class="use-case-title">飲食店</h3>
+                    <p class="use-case-description">
+                        食材・消耗品の在庫管理。賞味期限管理にも活用。在庫アラートで発注忘れを防止し、食材ロスを削減。
+                    </p>
+                    <div class="use-case-tag">ライト・スタンダード</div>
+                </div>
+                <div class="use-case-card">
+                    <div class="use-case-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3 class="use-case-title">オフィス用品管理</h3>
+                    <p class="use-case-description">
+                        文房具・消耗品の在庫管理。各部署の在庫を一元化。発注業務の効率化とコスト削減を実現。
+                    </p>
+                    <div class="use-case-tag">スタンダード</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- お客様の声セクション -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">お客様の声</h2>
+                <p class="section-description">
+                    導入された事業者様からの嬉しいお声を一部ご紹介
+                </p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        「Excelでの管理に限界を感じていましたが、このシステムで劇的に改善。在庫アラート機能のおかげで欠品がなくなりました。」
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <div class="author-name">田中 健太様</div>
+                            <div class="author-role">ECショップ運営 / スタンダードプラン</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        「買い切り型なので導入コストが明確。月額料金を気にせず使えるのが助かります。スマホからでも確認できるのが便利です。」
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <div class="author-name">佐藤 美咲様</div>
+                            <div class="author-role">アクセサリーショップ / ライトプラン</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        「複数倉庫の在庫を一元管理できるプロプランが最高。拠点間の移動履歴も完全に記録されるので、ミスが激減しました。」
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <div class="author-name">鈴木 誠様</div>
+                            <div class="author-role">卸売業 / プロプラン</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        「CSV一括登録で既存データを簡単に移行できました。カテゴリ管理機能で商品整理も楽々。コスパ最高のスタンダードプランがおすすめです。」
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <div class="author-name">山田 恵子様</div>
+                            <div class="author-role">食品販売 / スタンダードプラン</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQセクション -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">よくある質問</h2>
+                <p class="section-description">
+                    お客様からよくいただくご質問にお答えします
+                </p>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>本当に月額料金は一切かかりませんか？</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>はい、完全な買い切り型です。一度購入すれば永久に使用できます。隠れた料金や追加課金は一切ありません。</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>インストールは必要ですか？</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>いいえ、ブラウザで動作するWebアプリケーションです。URLにアクセスするだけですぐに使えます。Windows・Mac・スマホ、どのデバイスからでも利用可能です。</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>データは安全ですか？消えませんか？</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>データはブラウザのローカルストレージに保存されます。定期的にCSVエクスポート機能でバックアップを取ることをお勧めします。複数デバイスで使う場合は、CSVでデータ移行が可能です。</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>どのプランを選べばいいですか？</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>
+                            <strong>ライトプラン：</strong>商品数100件以内の個人事業主・小規模EC<br>
+                            <strong>スタンダードプラン：</strong>商品数1,000件以内、カテゴリ管理・在庫アラートが必要な方（一番人気）<br>
+                            <strong>プロプラン：</strong>無制限の商品数、複数拠点管理・詳細分析が必要な大規模事業者
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>複数のPCやスマホで使えますか？</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>はい、URLにアクセスできればどのデバイスからでも使えます。ただし、データは各デバイス単位で保存されるため、同期させる場合はCSVエクスポート→インポートでデータを移行してください。</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>途中でプランをアップグレードできますか？</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>各プランは独立した製品です。上位プランへの移行を希望される場合は、現在のデータをCSVエクスポートし、新しいプランでインポートすることで移行できます。</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>返金保証はありますか？</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>note.comのプラットフォームを通じた販売のため、購入後の返金は原則できません。各プランの機能詳細をよくご確認の上、ご購入ください。</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>サポートは受けられますか？</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>ご購入者様には、メッセージでのサポートを提供しています。使い方のご質問や技術的なお問い合わせに対応いたします。プロプランご購入者様には優先サポートをご提供しています。</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>無料トライアルはありますか？</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>各プランにはサンプルデータが登録済みで、購入後すぐに機能をお試しいただけます。買い切り型で低価格なため、まずはライトプランから始めるのもおすすめです。</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>ExcelやCSVからデータを移行できますか？</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>スタンダードプラン以上では、CSV一括登録機能があります。Excelで作成したデータをCSV形式で保存し、システムにインポートすることで簡単にデータ移行できます。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTAセクション -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">今すぐ在庫管理を始めましょう</h2>
+                <p class="cta-description">
+                    買い切り型だから、初期費用だけで永久に使える。<br>
+                    月額料金を気にせず、安心してビジネスに集中できます。
+                </p>
+                <div class="cta-buttons">
+                    <a href="#pricing" class="btn btn-cta-primary">
+                        <span>プランを選ぶ</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="https://note.com/webapp0104" target="_blank" class="btn btn-cta-secondary">
+                        <i class="fas fa-envelope"></i>
+                        <span>お問い合わせ</span>
+                    </a>
+                </div>
+                <div class="cta-features">
+                    <div class="cta-feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>月額料金なし</span>
+                    </div>
+                    <div class="cta-feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>即日利用可能</span>
+                    </div>
+                    <div class="cta-feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>メールサポート付き</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- フッター -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <i class="fas fa-boxes"></i>
+                        <span>在庫管理システム</span>
+                    </div>
+                    <p class="footer-description">
+                        個人事業主から大企業まで。<br>
+                        あなたのビジネスに最適な在庫管理ツール。
+                    </p>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-title">プラン</h4>
+                    <ul class="footer-links">
+                        <li><a href="https://note.com/webapp0104/n/n8d0967ab2560" target="_blank">ライトプラン（¥980）</a></li>
+                        <li><a href="https://note.com/webapp0104/n/na1f593e0431f" target="_blank">スタンダードプラン（¥2,980）</a></li>
+                        <li><a href="https://note.com/webapp0104/n/n7d45adfd12f6" target="_blank">プロプラン（¥4,980）</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-title">サイトマップ</h4>
+                    <ul class="footer-links">
+                        <li><a href="#features">機能</a></li>
+                        <li><a href="#pricing">料金プラン</a></li>
+                        <li><a href="#use-cases">活用事例</a></li>
+                        <li><a href="#testimonials">お客様の声</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-title">お問い合わせ</h4>
+                    <ul class="footer-links">
+                        <li>
+                            <a href="https://note.com/webapp0104" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                noteページ
+                            </a>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            購入者様限定サポート
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 在庫管理システム. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
